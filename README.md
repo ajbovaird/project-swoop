@@ -3,5 +3,6 @@
 
 ## Stack
 
-Frontend: React (TypeScript?), Bootstrap,
+Frontend: React (TypeScript?), Bootstrap
+
 Backend: FastAPI, SQLAlchemy, MongoDb, Postgres
