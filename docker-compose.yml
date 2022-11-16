@@ -1,8 +1,15 @@
 version: "3"
 services:
-  api:
+  backend:
     build: ./backend
     ports:
       - "8000:8000"
     volumes:
       - ./backend:/backend:ro
+  frontend:
+    build:
+      context: ./frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
