@@ -6,3 +6,5 @@
 Frontend: React (TypeScript?), Bootstrap
 
 Backend: FastAPI, SQLAlchemy, MongoDb, Postgres
+
+Backend Data Import: MySQL -> MongoDb
